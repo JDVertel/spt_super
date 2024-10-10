@@ -21,6 +21,7 @@
                             <formclientes ref="form" :Htipo="Ptipo" :idcliente="IDcliente" />
                         </div>
                         <div class="modal-footer">
+
                             <button type="button" class="btn btn-secondary btn-sm"
                                 data-bs-dismiss="modal">Close</button>
                             <button v-if="Ptipo == 'new'" type="button" class="btn btn-primary btn-sm"
@@ -59,6 +60,11 @@
 
                             <td>
                                 <div class=" d-flex justify-content-center">
+                                    <button class="btn btn_options btn-sm btn-info" title="ver info"
+                                        data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                        @click="verInfo(datatabla)">
+                                        X
+                                    </button>
                                     <button class="btn btn_options btn-sm btn-success" title="inactivar"
                                         v-if="datatabla.estado == 'activo'">
                                         X
@@ -122,6 +128,11 @@ export default {
         nuevo() {
             this.Ptipo = "new";
             this.IDcliente = [];
+        },
+
+        verInfo(data){
+            this.Ptipo = "info";
+            this.IDcliente = data;
         },
         guardacliente() {
             this.$refs.form.guardarnuevo()

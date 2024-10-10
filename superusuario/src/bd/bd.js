@@ -284,3 +284,130 @@ export const ipsclientes = [
     replegal: "juandavid",
   },
 ];
+export const cum = [
+  {
+    ID: 1,
+    CUM: "CUM-001",
+    Nombre_Comercial: "Paracetamol",
+    Principio_Activo: "Paracetamol",
+    Forma_Farmaceutica: "Tableta",
+    Via_Administracion: "Oral",
+    Clasificacion_ATC: "N02BE01",
+    Unidad_de_Medida: "mg",
+    Presentacion_Comercial: "Tabletas de 500 mg",
+    Numero_Registro_Sanitario: "RS-123456",
+    Titular: "Laboratorios XYZ",
+    Domicilio_Titular: "Calle Falsa 123, Bogotá",
+    Fecha_Vigencia: "2025-12-31",
+  },
+  {
+    ID: 2,
+    CUM: "CUM-002",
+    Nombre_Comercial: "Ibuprofeno",
+    Principio_Activo: "Ibuprofeno",
+    Forma_Farmaceutica: "Suspensión",
+    Via_Administracion: "Oral",
+    Clasificacion_ATC: "M01AE01",
+    Unidad_de_Medida: "ml",
+    Presentacion_Comercial: "Suspensión de 100 mg/5 ml",
+    Numero_Registro_Sanitario: "RS-123457",
+    Titular: "Laboratorios ABC",
+    Domicilio_Titular: "Avenida Siempre Viva 742, Medellín",
+    Fecha_Vigencia: "2026-01-15",
+  },
+  {
+    ID: 3,
+    CUM: "CUM-003",
+    Nombre_Comercial: "Amoxicilina",
+    Principio_Activo: "Amoxicilina",
+    Forma_Farmaceutica: "Cápsula",
+    Via_Administracion: "Oral",
+    Clasificacion_ATC: "J01CA04",
+    Unidad_de_Medida: "mg",
+    Presentacion_Comercial: "Cápsulas de 500 mg",
+    Numero_Registro_Sanitario: "RS-123458",
+    Titular: "Farmacéuticos Unidos S.A.",
+    Domicilio_Titular: "Carrera 45 # 67-89, Cali",
+    Fecha_Vigencia: "2025-11-30",
+  },
+  {
+    ID: 4,
+    CUM: "CUM-004",
+    Nombre_Comercial: "Metformina",
+    Principio_Activo: "Metformina HCl",
+    Forma_Farmaceutica: "Tableta",
+    Via_Administracion: "Oral",
+    Clasificacion_ATC: "A10BA02",
+    Unidad_de_Medida: "mg",
+    Presentacion_Comercial: "Tabletas de 850 mg",
+    Numero_Registro_Sanitario: "RS-123458",
+    Titular: "Farmacéuticos Unidos S.A.",
+    Domicilio_Titular: "Carrera 45 # 67-89, Cali",
+    Fecha_Vigencia: "2025-11-30",
+  },
+];
+
+export const cups = [
+  {
+    ID: 1,
+    CUPS: "CUP-001",
+    Nombre_Procedimiento: "Consulta médica general",
+    Tipo_Procedimiento: "Consulta",
+    Especialidad: "Medicina General",
+    Duracion: "30 minutos",
+
+  },
+  {
+    ID: 2,
+    CUPS: "CUP-002",
+    Nombre_Procedimiento: "Radiografía simple",
+    Tipo_Procedimiento: "Examen",
+    Especialidad: "Radiología",
+    Duracion: "15 minutos",
+
+  },
+  {
+    ID: 3,
+    CUPS: "CUP-003",
+    Nombre_Procedimiento: "Cirugía de apendicitis",
+    Tipo_Procedimiento: "Cirugía",
+    Especialidad: "Cirugía General",
+    Duracion: "2 horas",
+
+  },
+];
+export const cie10 = [
+  {
+    Codigo: "A000",
+    Nombre: "Cólera debido a Vibrio cholerae 01, biotipo cholerae",
+    Descripcion:
+      "Infección intestinal causada por la bacteria Vibrio cholerae.",
+    Categoria: "Ciertas enfermedades infecciosas y parasitarias",
+  },
+  {
+    Codigo: "A001",
+    Nombre: "Cólera debido a Vibrio cholerae 01, biotipo El Tor",
+    Descripcion:
+      "Variante del cólera causada por el biotipo El Tor de Vibrio cholerae.",
+    Categoria: "Ciertas enfermedades infecciosas y parasitarias",
+  },
+  {
+    Codigo: "A009",
+    Nombre: "Cólera, no especificado",
+    Descripcion:
+      "Infección por cólera sin especificar el tipo de Vibrio cholerae.",
+    Categoria: "Ciertas enfermedades infecciosas y parasitarias",
+  },
+  {
+    Codigo: "A010",
+    Nombre: "Fiebre tifoidea",
+    Descripcion: "Enfermedad infecciosa causada por Salmonella typhi.",
+    Categoria: "Ciertas enfermedades infecciosas y parasitarias",
+  },
+  {
+    Codigo: "A011",
+    Nombre: "Fiebre paratifoidea A",
+    Descripcion: "Infección causada por Salmonella paratyphi A.",
+    Categoria: "Ciertas enfermedades infecciosas y parasitarias",
+  },
+];
